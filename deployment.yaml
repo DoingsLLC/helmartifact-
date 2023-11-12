@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: doings-container
-          image: doingsacr.azurecr.io/nodejswebapp:v1
+          image: doingsllc/nodejs-app:V10.01  # Corrected image URL
           ports:
             - containerPort: 3000
 
